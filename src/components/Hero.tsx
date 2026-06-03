@@ -22,7 +22,7 @@ function HeroMedia() {
 
   return (
     <div className="relative overflow-hidden bg-[#11100e] max-md:order-first max-md:min-h-[56vh]">
-      <img src={heroPoster} alt="Velon Ambre Suprême extrait de parfum in golden studio light"
+      <img src={heroPoster} alt="Velon Titan extrait de parfum, dramatic high-contrast cinematic still"
         fetchPriority="high"
         className={`h-full w-full object-cover ${reduce ? 'animate-slowzoom' : ''}`} />
       {!reduce && (
